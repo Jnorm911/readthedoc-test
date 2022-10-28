@@ -11,5 +11,6 @@ This page documents our functions and examples.
 .. toctree::
    :hidden:
 
+   modules
    usage
    contribute
