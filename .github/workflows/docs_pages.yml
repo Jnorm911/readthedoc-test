@@ -49,6 +49,12 @@ jobs:
               force: true
               directory: ./docs/build/html
 
+         - name: archive
+           uses: actions/upload-pages-artifact@v0
+           with:
+              path: .
+              retention-days: 1
+
    deploy:
       # Add a dependency to the build job
       needs: build
