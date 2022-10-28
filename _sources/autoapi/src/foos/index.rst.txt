@@ -1,0 +1,16 @@
+:py:mod:`src.foos`
+==================
+
+.. py:module:: src.foos
+
+
+Submodules
+----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+
+   foo/index.rst
+   foo2/index.rst
+
+
